@@ -14,7 +14,7 @@ pipeline
                 sh "${DOCKER_COMPOSE_PATH} up --build"
             }
         }
-        steps('Run Test')
+        stage('Run Test')
         {
             steps
             {
