@@ -23,7 +23,7 @@
                 <?php
                     $sname = "mysql_db";
                     $uname = "root";
-                    $passname = "root";
+                    $passname = "admin123";
                     $dbname = "dbRedlockWeb";
 
                     $connection = new mysqli($sname, $uname, $passname, $dbname);
