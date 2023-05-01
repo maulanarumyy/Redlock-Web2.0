@@ -45,6 +45,7 @@
                                  "</td><td>" . $row["AddressUsers"]. 
                                  "</td><td>" . $row["DepartmentUsers"]. 
                                  "</td></tr>";
+                            echo "Total Users: $result->num_rows";
                         }
                     } 
                     else 

@@ -1,0 +1,10 @@
+git remote add origin https://github.com/maulanarumyy/Redlock-Web2.0.git
+
+git branch -M master
+
+git add .
+
+git commit -m "first commit"
+
+git push -u origin master
+
